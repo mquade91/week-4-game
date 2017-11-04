@@ -1,0 +1,53 @@
+seudo Code Crystal game
+
+Computer generates random number 
+		-betwenn 19-120  (math.Random?)
+		-when page loads 
+		-reset when "WIN" or "LOSS" occur
+		-display number on screen (innerHTML)
+
+
+Crystal 1
+	generate number between 1-
+	console log the value
+	when clicked add value to UserTotal
+	reset on WIN/LOSS
+
+Crystal 2
+	generate number between 1-12
+	console log the value
+	when clicked add value to UserTotal
+	reset on WIN/LOSS
+
+Crystal 3
+	generate number between 1-12
+	console log the value
+	when clicked add value to UserTotal
+	reset on WIN/LOSS
+
+Crystal 4
+	generate number between 1-12
+	console log the value
+	when clicked add value to UserTotal
+	reset on WIN/LOSS
+	
+Win/loss variables
+		Win is when UserTotal === ComputerNumber
+			must regenerate ComputerNumber
+			must reset UserTotal = 0
+			must add 1 to WIN column
+			reset Crystal1Val, Crystal2Val, Crystal3Val, 
+			Display "YOU WON!"
+
+
+
+		Loss is when UserTotal > ComputerNumber
+			must reset ComputerNumber
+			must reset UserTotal = 0
+			must add 1 to LOSS column
+			reset Crystal1Val, Crystal2Val, Crystal3Val, Crystal3Val
+			Display "YOU LOST"
+
+
+
+

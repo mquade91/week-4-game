@@ -1,0 +1,52 @@
+.header {
+	float:left;
+	width:44%;
+	margin:2%;
+	background:grey;
+	padding: 10px;
+	color:white;
+
+}
+
+html {
+	background-image:url("https://www.nationalgeographic.com/content/dam/photography/PROOF/2017/February/how-photograph-cave/06_how_to_photograph_a_cave.jpg");
+}
+
+.scoreBoard1 {
+	
+	float:left;
+	width:40%;
+	margin:2%;
+	background:grey;
+	padding: 10px;
+	color:white;
+}
+
+.scoreBoard2 {
+	width:95%;
+	float:left;
+	background:grey;
+	color:white;
+	padding: 10px;
+
+}
+ img {
+ 	float:left;
+	width: 100%;
+	margin:0%;
+	background:grey;
+ }
+
+.crystal {
+	float:left;
+	width: 20%;
+	margin:2%;
+	background:grey;
+	text-align: center;
+	
+}
+
+
+
+
+

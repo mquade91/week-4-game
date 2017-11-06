@@ -1,38 +1,39 @@
-seudo Code Crystal game
+Pseudo Code Crystal game
 
 Computer generates random number 
 		-betwenn 19-120  (math.Random?)
 		-when page loads 
 		-reset when "WIN" or "LOSS" occur
-		-display number on screen (innerHTML)
+		-display number on console (console.log)
 
 
 Crystal 1
-	generate number between 1-
+	generate number between 1-12
 	console log the value
-	when clicked add value to UserTotal
+	when clicked add value to PlayerTotal
 	reset on WIN/LOSS
 
 Crystal 2
 	generate number between 1-12
 	console log the value
-	when clicked add value to UserTotal
+	when clicked add value to PlayerTotal
 	reset on WIN/LOSS
 
 Crystal 3
 	generate number between 1-12
 	console log the value
-	when clicked add value to UserTotal
+	when clicked add value to PlayerTotal
 	reset on WIN/LOSS
 
 Crystal 4
 	generate number between 1-12
 	console log the value
-	when clicked add value to UserTotal
+	when clicked add value to PlayerTotal
 	reset on WIN/LOSS
 	
 Win/loss variables
-		Win is when UserTotal === ComputerNumber
+	Win is when PlayerTotal === ComputerGuess
+		When win occurs:
 			must regenerate ComputerNumber
 			must reset UserTotal = 0
 			must add 1 to WIN column
@@ -41,8 +42,9 @@ Win/loss variables
 
 
 
-		Loss is when UserTotal > ComputerNumber
-			must reset ComputerNumber
+	LOSS is when PlayerTotal > ComputerGuess
+		When LOSS occurs:
+			When must reset ComputerNumber
 			must reset UserTotal = 0
 			must add 1 to LOSS column
 			reset Crystal1Val, Crystal2Val, Crystal3Val, Crystal3Val

@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Game</title>
 
+	<!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+
+		<div class ="row">
+
+
+			<div class = "header">
+				<h1>Crystal Collection Game</h1>
+			</div>
+
+	
+			<div class = "header">
+				<h2> Directions:</h2>
+				<br>
+				<p> A random number will generate at the start of the game </p>
+				<br>
+				<p> There are four crystals below.  Each crystal is worth an unkown amount and each time you click one, the value of that crystal will be added to your total score. <em>*Crystals can have the same value </em> The value of the Crystal will not change until the game ends. </p>
+				<br>
+				<p> In order to WIN the game, your total score must equal the number given to you by the computer.</p>
+				<br>
+				<p> The value of each crystal, along with the number you are trying to match will reset each time you WIN or LOSE.</p>
+			</div>
+		
+		</div>
+
+
+
+	
+		<div class="row">
+			<div class = "scoreBoard1">
+				<h2 id="computerTotal"> Computer Total: ? </h2>
+			</div>
+		
+			<div class = "scoreBoard1">
+				<h2 id= "wins"> Wins: </h2>
+				<h2 id= "losses"> Losses: </h2>
+			</div>	
+		</div>
+		
+		<div class="row">
+			<div id ="crystal1" class="crystal">
+    			<img src="http://unicornshoppe.com/store1/images/GPAA1.jpg" alt="crystal-pic">
+    			<button>CRYSTAL 1</button>
+  			</div>
+  		
+  			<div id="crystal2" class="crystal">
+    			<img src="http://unicornshoppe.com/store1/images/GPAA1.jpg" alt="crystal-pic">
+    			<button>CRYSTAL 2</button>
+  			</div>
+		
+			<div id ="crystal3" class="crystal">
+    			<img src="http://unicornshoppe.com/store1/images/GPAA1.jpg" alt="crystal-pic">
+    			<button>CRYSTAL 3</button>
+  			</div>
+  		
+  			<div id="crystal4" class="crystal">
+    			<img src="http://unicornshoppe.com/store1/images/GPAA1.jpg" alt="crystal-pic">
+    			<button>CRYSTAL 4</button>
+  			</div>
+		</div>
+		
+		<div class="row">	
+			<div class = "scoreBoard2">
+				<h2 id = "playerTotal"> Player Total: </h2>
+			</div>
+		</div>	
+
+	
+</body>
+
+</html>
